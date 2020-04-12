@@ -20,19 +20,23 @@ class TransactionsBlock extends React.Component {
 					shadowOpacity: 1,
 					marginBottom: 30,
 				}}
-				
 			>
 				<Row style={{ padding: 21, paddingBottom: 0, paddingLeft: 10 }}>
 					<Col>
-						<Card.Title >
-							<text style={{ fontSize: 20, color: '#1A1A1A', fontWeight: '700' }}>Transactions for block </text><text style={{ fontSize: 20, color: '#0E9AFF', fontWeight: '700' }}>624804</text> 
+						<Card.Title>
+							<text style={{ fontSize: 20, color: '#1A1A1A', fontWeight: '700' }}>
+								Transactions for block{' '}
+							</text>
+							<text style={{ fontSize: 20, color: '#0E9AFF', fontWeight: '700' }}>
+								<a href="/AboutBlock">624804</a>
+							</text>
 						</Card.Title>
 					</Col>
 				</Row>
 				<Table
 					striped
 					variant="light"
-					style={{ borderBottomLeftRadius: 15, borderBottomRightRadius: 15, borderWidth: 0}}
+					style={{ borderBottomLeftRadius: 15, borderBottomRightRadius: 15, borderWidth: 0 }}
 				>
 					<thead>
 						<tr>
@@ -48,11 +52,19 @@ class TransactionsBlock extends React.Component {
 					</thead>
 					<tbody>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={success}
@@ -63,15 +75,27 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={success}
@@ -82,15 +106,27 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={success}
@@ -101,15 +137,28 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								{' '}
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={decline}
@@ -120,15 +169,27 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={success}
@@ -139,15 +200,27 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 						<tr>
-							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>0xcf3f8a8e095ecda11e34b...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>9842984</td>
+							<td style={{ fontWeight: 'bold', fontSize: 12, color: '#0E9AFF' }}>
+								0xcf3f8a8e095ecda11e34b...
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/AboutBlock">9842984</a>
+							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>35 mins ago</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>0xb178e5E9bF67974b6f69...</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#0E9AFF' }}>
+								<a href="/TransactionsDetails">0xb178e5E9bF67974b6f69...</a>
+							</td>
 							<td>
 								<img
 									src={success}
@@ -158,8 +231,12 @@ class TransactionsBlock extends React.Component {
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.05280942945581 Ether</td>
-							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.000147 Ether ($0.03)</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.05280942945581 Ether
+							</td>
+							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
+								0.000147 Ether ($0.03)
+							</td>
 						</tr>
 					</tbody>
 				</Table>

@@ -11,6 +11,7 @@ class SearchBlock extends React.Component {
 					borderWidth: 0,
 					height: 46,
 					backgroundColor: '#fff',
+					boxShadow: '0px 2px 25px rgba(68, 69, 78, 0.09)',
 				}}
 			>
 				<Row style={{ alignItems: 'center', paddingTop: 3 }}>

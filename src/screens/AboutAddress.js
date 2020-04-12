@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import TransactionsDetailsBlock from '../components/TransactionsDetailsBlock/TransactionsDetailsBlock';
+import AddressBlock from '../components/AddressBlock/AddressBlock';
 import SearchBlock from '../components/SearchBlock/SearchBlock';
 
-class TransactionsDetails extends React.Component {
+class AboutAddress extends React.Component {
 	render() {
 		return (
 			<Container style={{ height: window.innerHeight }}>
@@ -12,9 +12,9 @@ class TransactionsDetails extends React.Component {
 						<SearchBlock />
 					</Col>
 				</Row>
-				<Row style={{ marginBottom: 30 }}>
-					<Col>
-						<TransactionsDetailsBlock />
+				<Row style={{ marginBottom: 30 }} className="justify-content-md-center">
+					<Col md="12">
+						<AddressBlock />
 					</Col>
 				</Row>
 			</Container>
@@ -22,4 +22,4 @@ class TransactionsDetails extends React.Component {
 	}
 }
 
-export default TransactionsDetails;
+export default AboutAddress;

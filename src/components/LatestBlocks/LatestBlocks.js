@@ -23,7 +23,7 @@ class LatestBlocks extends React.Component {
 					marginBottom: 30,
 				}}
 			>
-				<Row style={{ padding: 21, paddingBottom: 0 }}>
+				<Row style={{ padding: 21, paddingBottom: 0, paddingLeft:11 }}>
 					<Col>
 						<Card.Title style={{ fontSize: 20, color: '#1A1A1A', fontWeight: '700' }}>
 							Latest Blocks
@@ -66,7 +66,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
@@ -82,7 +82,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
@@ -98,7 +98,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
@@ -114,7 +114,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
@@ -130,7 +130,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
@@ -146,7 +146,7 @@ class LatestBlocks extends React.Component {
 									width="72"
 									height="18"
 									className="d-inline-block align-top-10"
-									alt="React Bootstrap logo"
+									alt="Logo"
 									style={{ marginBottom: 10 }}
 								/>
 							</td>
