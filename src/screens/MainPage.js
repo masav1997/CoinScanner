@@ -9,7 +9,7 @@ import LatestTransactions from '../components/LatestTransactions/LatestTransacti
 class MainPage extends React.Component {
 	render() {
 		return (
-			<Container style={{ height: window.innerHeight }}>
+			<Container style={{ height: window.innerHeight*2 }}>
 				<Row style={{ marginBottom: 30 }} className="justify-content-md-center">
 					<Col></Col>
 					<Col>
