@@ -34,7 +34,7 @@ class TransactionsBlock extends React.Component {
 					</Col>
 				</Row>
 				<Table
-					striped
+					striped 
 					variant="light"
 					style={{ borderBottomLeftRadius: 15, borderBottomRightRadius: 15, borderWidth: 0 }}
 				>

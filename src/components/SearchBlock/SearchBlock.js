@@ -15,10 +15,10 @@ class SearchBlock extends React.Component {
 				}}
 			>
 				<Row style={{ alignItems: 'center', paddingTop: 3 }}>
-					<Col sm={1} style={{ textAlign: 'right', marginLeft:10, }}>
+					<Col style={{ justifySelf: 'right', marginLeft:10, }}>
 						<img src={find} width="15" height="15" alt="Find Icon" />
 					</Col>
-					<Col sm={10} style={{ textAlign: 'left' }}>
+					<Col xs={10} style={{ textAlign: 'left', justifySelf: 'right', }}>
 						<FormControl
 							type="text"
 							placeholder="Search by Address / Hash / Block / Token"

@@ -61,6 +61,7 @@ class DropBlock extends React.Component {
 					</Dropdown.Item>
 				</Dropdown.Menu>
 			</Dropdown>
+
 		);
 	}
 }

@@ -10,10 +10,12 @@ class MainPage extends React.Component {
 	render() {
 		return (
 			<Container style={{ height: window.innerHeight }}>
-				<Row className="justify-content-md-center" style={{ marginBottom: 30 }}>
-					<Col md="3">
+				<Row style={{ marginBottom: 30 }} className="justify-content-md-center">
+					<Col></Col>
+					<Col>
 						<DropBlock />
 					</Col>
+					<Col></Col>
 				</Row>
 				<Row className="justify-content-md-center" style={{ marginBottom: 30 }}>
 					<Col md="7">
