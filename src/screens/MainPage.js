@@ -9,7 +9,7 @@ import LatestTransactions from '../components/LatestTransactions/LatestTransacti
 class MainPage extends React.Component {
 	render() {
 		return (
-			<Container style={{ height: window.innerHeight*2 }}>
+			<Container style={{   backgroundColor: '#E5E5E5'  }}>
 				<Row style={{ marginBottom: 30 }} className="justify-content-md-center">
 					<Col></Col>
 					<Col>
@@ -27,7 +27,7 @@ class MainPage extends React.Component {
 						<SearchBlock />
 					</Col>
 				</Row>
-				<Row style={{ marginBottom: 30 }}>
+				<Row>
 					<Col>
 						<LatestBlocks />
 					</Col>

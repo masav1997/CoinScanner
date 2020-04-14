@@ -41,30 +41,18 @@ class HelpBlock extends React.Component {
 								backgroundColor: '#FAFAFF',
 							}}
 						>
-							<Row>
-								<Col md="6">
-									<text
-										style={{
-											fontSize: 16,
-											color: '#1A1A1A',
-											fontWeight: 'bold',
-										}}
-									>
-										Question name and title?
-									</text>
-								</Col>
-								<Col md="6" style={{ textAlign: 'right' }}>
-									<Accordion.Toggle as={Button} variant="link" eventKey="0">
-										<img
-											src={down}
-											width="12"
-											height="8"
-											alt="Down"
-											style={{ marginBottom: 15 }}
-										/>
-									</Accordion.Toggle>
-								</Col>
-							</Row>
+							<Accordion.Toggle as={Button} variant="link" eventKey="0">
+								<text
+									style={{
+										fontSize: 16,
+										color: '#1A1A1A',
+										fontWeight: 'bold',
+									}}
+								>
+									Question name and title?
+								</text>
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="0">
 							<Card.Body style={{ marginTop: -20 }}>
@@ -111,30 +99,18 @@ class HelpBlock extends React.Component {
 								backgroundColor: '#fdfdfe',
 							}}
 						>
-							<Row>
-								<Col md="6">
-									<text
-										style={{
-											fontSize: 16,
-											color: '#1A1A1A',
-											fontWeight: 'bold',
-										}}
-									>
-										Question name and title?
-									</text>
-								</Col>
-								<Col md="6" style={{ textAlign: 'right' }}>
-									<Accordion.Toggle as={Button} variant="link" eventKey="1">
-										<img
-											src={down}
-											width="12"
-											height="8"
-											alt="Down"
-											style={{ marginBottom: 15 }}
-										/>
-									</Accordion.Toggle>
-								</Col>
-							</Row>
+							<Accordion.Toggle as={Button} variant="link" eventKey="1">
+								<text
+									style={{
+										fontSize: 16,
+										color: '#1A1A1A',
+										fontWeight: 'bold',
+									}}
+								>
+									Question name and title?
+								</text>
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="1">
 							<Card.Body style={{ marginTop: -20 }}>
@@ -181,30 +157,18 @@ class HelpBlock extends React.Component {
 								backgroundColor: '#FAFAFF',
 							}}
 						>
-							<Row>
-								<Col md="6">
-									<text
-										style={{
-											fontSize: 16,
-											color: '#1A1A1A',
-											fontWeight: 'bold',
-										}}
-									>
-										Question name and title?
-									</text>
-								</Col>
-								<Col md="6" style={{ textAlign: 'right' }}>
-									<Accordion.Toggle as={Button} variant="link" eventKey="2">
-										<img
-											src={down}
-											width="12"
-											height="8"
-											alt="Down"
-											style={{ marginBottom: 15 }}
-										/>
-									</Accordion.Toggle>
-								</Col>
-							</Row>
+							<Accordion.Toggle as={Button} variant="link" eventKey="2">
+								<text
+									style={{
+										fontSize: 16,
+										color: '#1A1A1A',
+										fontWeight: 'bold',
+									}}
+								>
+									Question name and title?
+								</text>
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="2">
 							<Card.Body style={{ marginTop: -20 }}>
@@ -251,30 +215,18 @@ class HelpBlock extends React.Component {
 								backgroundColor: '#fdfdfe',
 							}}
 						>
-							<Row>
-								<Col md="6">
-									<text
-										style={{
-											fontSize: 16,
-											color: '#1A1A1A',
-											fontWeight: 'bold',
-										}}
-									>
-										Question name and title?
-									</text>
-								</Col>
-								<Col md="6" style={{ textAlign: 'right' }}>
-									<Accordion.Toggle as={Button} variant="link" eventKey="3">
-										<img
-											src={down}
-											width="12"
-											height="8"
-											alt="Down"
-											style={{ marginBottom: 15 }}
-										/>
-									</Accordion.Toggle>
-								</Col>
-							</Row>
+							<Accordion.Toggle as={Button} variant="link" eventKey="3">
+								<text
+									style={{
+										fontSize: 16,
+										color: '#1A1A1A',
+										fontWeight: 'bold',
+									}}
+								>
+									Question name and title?
+								</text>
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="3">
 							<Card.Body style={{ marginTop: -20 }}>

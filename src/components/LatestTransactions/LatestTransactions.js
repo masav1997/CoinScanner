@@ -71,7 +71,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 						<tr>
@@ -90,7 +90,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 						<tr>
@@ -109,7 +109,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 						<tr>
@@ -128,7 +128,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 						<tr>
@@ -147,7 +147,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 						<tr>
@@ -166,7 +166,7 @@ class LatestTransactions extends React.Component {
 							</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>0.2 Ether ($34.54)</td>
 							<td style={{ fontWeight: 'normal', fontSize: 12, color: '#1A1A1A' }}>
-								0.000147 Ether ($0.03)
+								0.000147 Ether
 							</td>
 						</tr>
 					</tbody>

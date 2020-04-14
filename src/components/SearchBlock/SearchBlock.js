@@ -7,7 +7,7 @@ class SearchBlock extends React.Component {
 		return (
 			<Form
 				style={{
-					borderRadius: 15,
+					borderRadius: 10,
 					borderWidth: 0,
 					height: 46,
 					backgroundColor: '#fff',
@@ -15,14 +15,14 @@ class SearchBlock extends React.Component {
 				}}
 			>
 				<Row style={{ alignItems: 'center', paddingTop: 3 }}>
-					<Col style={{ justifySelf: 'right', marginLeft:10, }}>
+					<Col xs={0} style={{ justifySelf: 'right', marginLeft:30 }}>
 						<img src={find} width="15" height="15" alt="Find Icon" />
 					</Col>
-					<Col xs={10} style={{ textAlign: 'left', justifySelf: 'right', }}>
+					<Col xs={10} style={{ textAlign: 'left', justifySelf: 'left',}}>
 						<FormControl
 							type="text"
 							placeholder="Search by Address / Hash / Block / Token"
-							style={{ borderWidth: 0, borderRadius: 15, top: 2 }}
+							style={{ borderWidth: 0, borderRadius: 15, top: 2}}
 						/>
 					</Col>
 				</Row>

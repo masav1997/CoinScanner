@@ -6,7 +6,7 @@ import SearchBlock from '../components/SearchBlock/SearchBlock';
 class AboutBlock extends React.Component {
 	render() {
 		return (
-			<Container style={{ height: window.innerHeight*2 }}>
+			<Container style={{ height: window.innerHeight }}>
 				<Row className="justify-content-md-center" style={{ marginBottom: 30 }}>
 					<Col md="8">
 						<SearchBlock />
