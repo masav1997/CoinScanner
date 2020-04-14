@@ -51,7 +51,7 @@ class HelpBlock extends React.Component {
 								>
 									Question name and title?
 								</text>
-								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 250 }} />
 							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="0">
@@ -109,7 +109,7 @@ class HelpBlock extends React.Component {
 								>
 									Question name and title?
 								</text>
-								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 250 }} />
 							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="1">
@@ -167,7 +167,7 @@ class HelpBlock extends React.Component {
 								>
 									Question name and title?
 								</text>
-								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 250 }} />
 							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="2">
@@ -225,7 +225,7 @@ class HelpBlock extends React.Component {
 								>
 									Question name and title?
 								</text>
-								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 180 }} />
+								<img src={down} width="12" height="8" alt="Down" style={{ marginLeft: 250 }} />
 							</Accordion.Toggle>
 						</Card.Header>
 						<Accordion.Collapse eventKey="3">

@@ -14,7 +14,7 @@ function App() {
 		<div style={{ backgroundColor: '#E5E5E5' }}>
 			<Header/>
 			<Router>
-				<Route exact path="/" component={MainPage} />
+				<Route exact path="/" component={MainPage}/>
 				<Route exact path="/AboutBlock" component={AboutBlock} />
 				<Route exact path="/AboutTransactions" component={AboutTransactions} />
 				<Route exact path="/TransactionsDetails" component={TransactionsDetails} />
