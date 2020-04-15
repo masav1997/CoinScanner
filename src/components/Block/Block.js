@@ -21,7 +21,7 @@ class Block extends React.Component {
 					marginBottom: 30,
 				}}
 			>
-				<Row style={{ padding: 21, paddingBottom: 0, paddingLeft: 10 }}>
+				<Row style={{ padding: 21, paddingBottom: 0 }}>
 					<Col>
 						<Card.Title style={{ fontSize: 20, color: '#1A1A1A', fontWeight: '700' }}>
 							Block 624804

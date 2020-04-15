@@ -18,20 +18,20 @@ function Header() {
 				boxShadow: '0px 2px 25px rgba(68, 69, 78, 0.09)',
 			}}
 		>
-			<Navbar.Brand href="/" style={{marginTop:10}}>
+			<Navbar.Brand href="/">
 				<img src={logo} width="128" height="16" alt="Logo" />
 			</Navbar.Brand>
 
-			<Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginTop:25}}/>
+			<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 			<Navbar.Collapse className="justify-content-end">
 				<Nav className="justify-content-end">
-					<Nav.Link href="/AboutTransactions" style={{marginTop:10}}>
+					<Nav.Link href="/AboutTransactions" style={{marginTop:10, marginRight:10}}>
 						<text style={{ fontWeight: 'normal', fontSize: 16, color: '#1A1A1A' }}>Transactions</text>
 					</Nav.Link>
-					<Nav.Link href="/AboutBlock"  style={{marginTop:10}}>
+					<Nav.Link href="/AboutBlock"  style={{marginTop:10, marginRight:10}}>
 						<text style={{ fontWeight: 'normal', fontSize: 16, color: '#1A1A1A' }}>Blocks</text>
 					</Nav.Link>
-					<Nav.Link href="/Help"  style={{marginTop:10}}>
+					<Nav.Link href="/Help"  style={{marginTop:10, marginRight:10}}>
 						<text style={{ fontWeight: 'normal', fontSize: 16, color: '#1A1A1A' }}>FAQ</text>
 					</Nav.Link>
 					<Nav.Link href="#link">
@@ -43,7 +43,7 @@ function Header() {
 									borderRadius: 10,
 									backgroundColor: '#fdfdfe',
 									borderWidth: 0,
-									marginTop:5
+									marginTop:3
 								}}
 							>
 								<img src={flag1} width="20" height="12" alt="GB" />
@@ -70,7 +70,7 @@ function Header() {
 									borderRadius: 10,
 									backgroundColor: '#fdfdfe',
 									borderWidth: 0,
-									marginTop:5
+									marginTop:3
 								}}
 							>
 								<text style={{ fontWeight: 'normal', fontSize: 15, color: '#1A1A1A' }}>$ USD</text>

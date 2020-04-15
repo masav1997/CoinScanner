@@ -22,7 +22,8 @@ class SearchBlock extends React.Component {
 						<FormControl
 							type="text"
 							placeholder="Search by Address / Hash / Block / Token"
-							style={{ borderWidth: 0, borderRadius: 15, top: 2}}
+							style={{ borderWidth: 0, borderRadius: 5, fontWeight: 'normal', fontSize: 16, color: '#1A1A1A',}}
+							bsStyle="secondary"
 						/>
 					</Col>
 				</Row>
